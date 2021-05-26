@@ -1,0 +1,34 @@
+.videos-select {
+    background-color: gray;
+    border-radius: 5px;
+}
+
+.videos {
+    /* box-sizing: content-box; */
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    width: 680px;
+    height: 100%;
+}
+
+.fb-video {
+    display: inline-block;
+    background-color: gray;
+    background-size: 500px;
+    transition: 0.7s;
+    width: 320px;
+    height: 200px;
+    filter: grayscale(70%);
+    margin: 5px;
+}
+
+.fb-video:hover {
+    filter: grayscale(0%);
+}
+
+
+/* 
+.videos {
+    background-position-x: center;
+} */
