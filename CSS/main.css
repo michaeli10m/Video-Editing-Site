@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     transition: 0.8s;
     background: rgb(182, 180, 180);

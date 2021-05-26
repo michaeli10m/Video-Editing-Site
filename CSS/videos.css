@@ -18,13 +18,13 @@
     background-size: 500px;
     transition: 0.7s;
     width: 320px;
-    height: 200px;
-    filter: grayscale(70%);
+    height: 180px;
+    filter: grayscale(0%);
     margin: 5px;
 }
 
 .fb-video:hover {
-    filter: grayscale(0%);
+    filter: grayscale(30%);
 }
 
 

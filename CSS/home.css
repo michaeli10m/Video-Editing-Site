@@ -3,6 +3,8 @@
     border-radius: 5px;
 }
 
+
+/* 
 .bcground-image {
     background-image: url(/images/bcg.jpg);
     background-color: ivory;
@@ -13,7 +15,7 @@
     padding: 205px;
     filter: grayscale(10%);
     filter: blur(0.8px);
-}
+} */
 
 .content-mid div {
     margin-left: auto;
