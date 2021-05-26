@@ -6,7 +6,6 @@ body {
     transition: 0.8s;
     background: rgb(182, 180, 180);
     color: white;
-    width: 100%;
     margin: 0;
     padding: 0;
 }
@@ -33,7 +32,7 @@ header {
 .nav-bar li {
     padding: 8px;
     display: inline-block;
-    font-size: 1.2em;
+    font-size: min(max(16px, 4vw), 15px);
     transition: 0.7s;
     cursor: pointer;
 }
