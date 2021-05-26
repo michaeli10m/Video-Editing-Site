@@ -32,7 +32,7 @@ header {
 .nav-bar li {
     padding: 8px;
     display: inline-block;
-    font-size: min(max(16px, 4vw), 15px);
+    font-size: min(max(18px, 5vw), 16px);
     transition: 0.7s;
     cursor: pointer;
 }
@@ -46,6 +46,21 @@ header {
     text-decoration: none;
     color: rgb(228, 227, 227);
     margin: 0.5em;
+}
+
+body div {
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 footer {
