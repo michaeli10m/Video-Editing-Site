@@ -3,6 +3,17 @@
     border-radius: 5px;
 }
 
+body {
+    background-image: url('../images/bcg.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content-mid {
+    display: inline-block;
+}
+
 
 /* 
 .bcground-image {
