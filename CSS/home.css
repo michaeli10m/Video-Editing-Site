@@ -1,10 +1,10 @@
-.home-select {
+.home-select a {
     background-color: gray;
     border-radius: 5px;
 }
 
 body {
-    background-image: url('../images/bcg.jpg');
+    /* background-image: url('../images/bcg.jpg'); */
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -12,6 +12,7 @@ body {
 
 .content-mid {
     display: inline-block;
+    display: none;
 }
 
 
