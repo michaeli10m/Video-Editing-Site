@@ -8,6 +8,8 @@
     <title>Videos</title>
     <link rel="stylesheet" href="../CSS/main.css">
     <link rel="stylesheet" href="../CSS/videos.css">
+    <script src="https://kit.fontawesome.com/e554aa2c27.js" crossorigin="anonymous"></script>
+
 
 </head>
 
@@ -15,18 +17,24 @@
     <div id="fb-root"></div>
     <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v10.0" nonce="mdlYIwLX"></script>
 
-    <header>
-        <nav class="nav-bar">
-            <ul>
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="info.html">Info</a></li>
-                <li class="videos-select"><a href="videos.html">Videos</a></li>
-                <li><a href="photos.html">Photos</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+    <header></header>
+
+    <nav class="nav-bar">
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+                <i class="fas fa-bars"></i>
+            </label>
+        <label class="logo">Studio Epilogue</label>
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="info.html">Info</a></li>
+            <li class="tab-select"><a href="videos.html">Videos</a></li>
+            <li><a href="photos.html">Photos</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
 
     <!-- <p class="page-title">Videos</p> -->
 
@@ -98,7 +106,7 @@
         };
     </script>
 
-    <footer> &#169; All rights reserved to "Epilogue-Studio"</footer>
+    <footer id="footer"> &#169; All rights reserved to "Epilogue-Studio"</footer>
 
 </body>
 

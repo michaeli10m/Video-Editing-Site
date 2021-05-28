@@ -6,23 +6,32 @@
     padding: 0;
 }
 
-body {
-    font-family: 'Open Sans', sans-serif;
+.tab-select a {
+    background-color: gray;
+    border-radius: 5px;
 }
 
-nav {
-    background-color: rgb(6, 134, 134);
-    height: 50px;
-    width: 100%;
+body {
+    padding-top: 50px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 label.logo {
     color: white;
     font-family: 'Snell Roundhand', Courier, monospace;
-    font-size: 26px;
-    line-height: 60px;
+    font-size: 22px;
+    line-height: 55px;
     padding: 0px 35px;
     font-weight: bold;
+}
+
+nav {
+    background-color: rgb(6, 134, 134);
+    height: 50px;
+    top: 0;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
 }
 
 nav ul {
@@ -38,6 +47,7 @@ nav ul li {
 }
 
 nav ul li a {
+    transition: 0.3s;
     color: white;
     font-size: 17px;
     padding: 7px 13px;
@@ -54,7 +64,7 @@ nav ul li a {
     font-size: 30px;
     color: white;
     float: right;
-    line-height: 80px;
+    line-height: 52px;
     margin-right: 40px;
     cursor: pointer;
     display: none;
@@ -71,6 +81,9 @@ nav ul li a {
 }
 
 @media (max-width:858px) {
+    /* label.logo {
+        ;
+    } */
     .checkbtn {
         display: block;
     }
@@ -79,7 +92,7 @@ nav ul li a {
         width: 100%;
         height: 100vh;
         background: rgb(0, 64, 255);
-        top: 80px;
+        top: 50px;
         left: -100%;
         text-align: center;
         transition: all .5s;
@@ -111,8 +124,10 @@ nav ul li a {
     height: calc(100vh-80px);
 }
 
-section {
-    animation: fadeInAnimation ease 2s;
+section,
+p,
+div {
+    animation: fadeInAnimation ease 1s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
 }
@@ -128,7 +143,8 @@ section {
 
 #footer {
     background-color: rgba(71, 71, 71, 0.952);
-    position: absolute;
+    color: wheat;
+    position: fixed;
     bottom: 0;
     text-align: center;
     padding: 1px;

@@ -1,18 +1,17 @@
-.home-select a {
-    background-color: gray;
-    border-radius: 5px;
-}
-
-body {
-    /* background-image: url('../images/bcg.jpg'); */
-    background-attachment: fixed;
+.bcg-pic {
+    background-image: url('../images/bcg.jpg');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-position: top;
+    background-size: contain;
+    /* background-attachment: fixed; */
 }
 
 .content-mid {
-    display: inline-block;
     display: none;
+}
+
+p {
+    width: 50px;
 }
 
 
@@ -28,10 +27,3 @@ body {
     filter: grayscale(10%);
     filter: blur(0.8px);
 } */
-
-.content-mid div {
-    margin-left: auto;
-    margin-right: auto;
-    margin: 5px;
-    border: 1px solid gray;
-}
