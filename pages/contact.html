@@ -7,8 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
     <link rel="stylesheet" href="../CSS/main.css">
+    <link rel="stylesheet" href="../CSS/contact.css">
     <script src="https://kit.fontawesome.com/e554aa2c27.js" crossorigin="anonymous"></script>
-
+    <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDAxYIhxw3DB3FKsTrz0aEeZoivMLRScBQ&callback=initMap">
+    </script>
+    <script src="../JS/contact.js"></script>
 
 </head>
 
@@ -16,12 +19,15 @@
 
     <header> </header>
 
+
     <nav class="nav-bar">
         <input type="checkbox" id="check">
+
         <label for="check" class="checkbtn">
-                <i class="fas fa-bars"></i>
-            </label>
-        <label class="logo">Studio Epilogue</label>
+            <i class="fas fa-bars"></i>
+        </label>
+
+        <label class="logo"><a href="../index.html">Editing Studio</a></label>
         <ul>
             <li><a href="../index.html">Home</a></li>
             <li><a href="info.html">Info</a></li>
@@ -32,21 +38,40 @@
         </ul>
     </nav>
 
-    <p class="page-title">Contact</p>
+    <div class="body-container">
+        <div class="page-discribtion">
+            <p>Feel free to contact us, at any time!</p>
+        </div>
 
-    <section>
-        <div>a</div>
-        <div>b</div>
-        <div>c</div>
-        <div>d</div>
-        <div>e</div>
-        <div>f</div>
-    </section>
+        <div class="form-container">
+            <form action="../index.html">
 
-    <section>Lower Section</section>
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+                <label for="email">Your email:</label>
+                <input type="email" id="email" name="email" placeholder="Valid email">
+
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:120px"></textarea>
+
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </div>
+
+    <div class="map-container" id="map">
+        <!-- <p>We are located in Jerusalem</p> -->
+    </div>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDAxYIhxw3DB3FKsTrz0aEeZoivMLRScBQ&callback=initMap&libraries=&v=weekly" async></script>
+
+    <!-- <section>Lower Section</section> -->
+
 
     <footer id="footer"> &#169; All rights reserved to "Epilogue-Studio"</footer>
-
 </body>
 
 </html>

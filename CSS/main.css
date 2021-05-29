@@ -4,12 +4,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    text-shadow: 1px 0px 3px rgba(0, 0, 0, 0.377);
-}
-
-.tab-select a {
-    background-color: gray;
-    border-radius: 5px;
+    transition: 0.5s;
 }
 
 body {
@@ -17,15 +12,33 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-label.logo {
+
+/* color of the page tab once page is changed */
+
+.tab-select a {
+    background-color: gray;
+    border-radius: 5px;
+}
+
+.bcg-pic {
+    background-image: url('../images/bcg.jpg');
+    background-size: cover;
+    height: calc(100vh-80px);
+}
+
+label.logo a {
     color: white;
     font-family: 'Snell Roundhand', Courier, monospace;
     font-size: 22px;
     line-height: 55px;
     padding: 0px 35px;
     font-weight: bold;
+    text-shadow: 1px 0px 3px rgba(0.5, 0, 3, 0.377);
     float: right;
 }
+
+
+/* Navigation bar */
 
 nav {
     background-color: rgb(6, 134, 134);
@@ -55,10 +68,11 @@ nav ul li a {
     padding: 7px 13px;
     border-radius: 3px;
     text-transform: uppercase;
+    text-shadow: 1px 0px 3px rgba(0.3, 0, 4, 0.377);
 }
 
 .nav-bar li a:hover {
-    background-color: gray;
+    background-color: rgba(141, 125, 125, 0.774);
     border-radius: 5px;
 }
 
@@ -73,8 +87,15 @@ nav ul li a {
     transition: 2s;
 }
 
+#check {
+    display: none;
+}
+
+
+/* tablet smartphone responsive */
+
 @media (max-width:952px) {
-    label.logo {
+    label.logo a {
         font-size: 18px;
         padding-left: 25px;
     }
@@ -83,8 +104,8 @@ nav ul li a {
     }
 }
 
-@media (max-width:896px) {
-    label.logo {
+@media (max-width:836px) {
+    label.logo a {
         float: none;
         margin-left: auto;
         margin-right: auto;
@@ -96,12 +117,12 @@ nav ul li a {
         position: fixed;
         width: 100%;
         height: 100vh;
-        /* background: rgb(252, 252, 252); */
         background-image: linear-gradient(rgb(204, 204, 204), rgb(236, 227, 214));
         top: 50px;
         left: -100%;
         text-align: center;
         transition: all .5s;
+        overflow: scroll;
     }
     nav ul li {
         display: block;
@@ -111,6 +132,7 @@ nav ul li a {
     nav ul li a {
         color: black;
         font-size: 20px;
+        text-shadow: 1px 0px 3px rgba(0.3, 0, 4, 0.377);
     }
     a:hover,
     a:active {
@@ -123,7 +145,7 @@ nav ul li a {
         box-shadow: -3px 0px 15px 4px rgba(0, 0, 0, 0.64);
     }
     #check:checked~.checkbtn {
-        animation: clickRotate 0.6s alternate-reverse;
+        animation: clickRotate 1s alternate-reverse;
     }
     @keyframes clickRotate {
         50% {
@@ -132,15 +154,8 @@ nav ul li a {
     }
 }
 
-#check {
-    display: none;
-}
 
-.bcg-pic {
-    background-image: url('../images/bcg.jpg');
-    background-size: cover;
-    height: calc(100vh-80px);
-}
+/* fade in animation for most of the body */
 
 section,
 p,
