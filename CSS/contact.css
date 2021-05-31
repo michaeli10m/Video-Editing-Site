@@ -21,31 +21,13 @@ body {
 
 .contact-info ul li {
     display: inline-block;
-    line-height: 20px;
-    margin: 0;
-    color: white;
-    padding: 8px;
+    padding: 5px;
+    margin: 8px;
 }
 
 .contact-info ul li a {
     color: white;
 }
-
-.form-container {
-    border-radius: 7px;
-    background-color: #dbdbdb;
-    padding: 23px 25px;
-    margin: 3vh 5vw 3vh 3.5vw;
-}
-
-.contact-info {
-    width: 100%;
-}
-
-
-/* .map-sec {
-    margin: 0;
-} */
 
 #map,
 .form-container {
@@ -57,7 +39,7 @@ body {
 /* contact buttons */
 
 .fb {
-    background: #1832c5;
+    background: #3b5998;
 }
 
 .mail {
@@ -65,7 +47,7 @@ body {
 }
 
 .phone {
-    background: #e78a11;
+    background: #0dad30;
 }
 
 .whatsApp {
@@ -73,12 +55,14 @@ body {
 }
 
 
-/* body {
-    font-family: Arial, Helvetica, sans-serif;
-} */
-
-
 /* contact form  */
+
+.form-container {
+    border-radius: 7px;
+    background-color: #dbdbdb;
+    padding: 23px 25px;
+    margin: 3vh 5vw 3vh 3.5vw;
+}
 
 input[type=text],
 input[type=email],

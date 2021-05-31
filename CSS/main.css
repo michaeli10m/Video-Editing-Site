@@ -12,6 +12,11 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+.bcg-pic {
+    background-image: url('../images/bcg.jpg');
+    background-size: cover;
+}
+
 section,
 p,
 div {
@@ -37,11 +42,8 @@ div {
     border-radius: 5px;
 }
 
-.bcg-pic {
-    background-image: url('../images/bcg.jpg');
-    background-size: cover;
-    height: calc(100vh-80px);
-}
+
+/* Navigation bar */
 
 label.logo a {
     color: white;
@@ -53,9 +55,6 @@ label.logo a {
     text-shadow: 1px 0px 3px rgba(0.5, 0, 3, 0.377);
     float: right;
 }
-
-
-/* Navigation bar */
 
 nav {
     background-color: rgb(6, 134, 134);

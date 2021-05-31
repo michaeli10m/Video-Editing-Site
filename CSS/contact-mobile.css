@@ -12,6 +12,10 @@
 }
 
 @media (max-width:836px) {
+    label.logo {
+        margin-left: auto;
+        margin-right: auto;
+    }
     .page-header {
         padding: 15px;
         padding-bottom: 0;
@@ -29,9 +33,8 @@
     h3.location-about {
         font-size: 22px;
     }
-    label.logo {
-        margin-left: auto;
-        margin-right: auto;
+    p.location-about {
+        margin-bottom: 15px;
     }
     .body-container {
         font-size: 16px;
@@ -47,18 +50,13 @@
         padding: 15px 18px;
     }
     #map {
-        width: 200px;
+        width: 100%;
         height: 200px;
         position: relative;
         margin-right: auto;
         margin-left: auto;
     }
-    .fb,
-    .mail,
-    .phone,
-    .whatsApp {
-        height: 20vw;
-        width: 20vw;
-        padding: 8px;
+    .map-sec {
+        margin: 2vh 8vw 5vh 8vw;
     }
 }
