@@ -20,6 +20,7 @@ body {
 }
 
 .contact-info ul li {
+    /* display: none; */
     display: inline-block;
     margin: 3px;
 }
@@ -29,7 +30,7 @@ body {
 }
 
 .fa {
-    padding: 5px;
+    padding: 8px;
 }
 
 #map,
