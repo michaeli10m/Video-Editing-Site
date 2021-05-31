@@ -21,7 +21,7 @@ body {
 
 .contact-info ul li {
     display: inline-block;
-    margin-left: 2vw;
+    margin: 3px;
 }
 
 .contact-info ul li a {
