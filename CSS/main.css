@@ -12,6 +12,23 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+section,
+p,
+div {
+    animation: fadeInAnimation ease 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
 
 /* color of the page tab once page is changed */
 
@@ -111,7 +128,7 @@ nav ul li a {
     .checkbtn {
         display: block;
     }
-    ul {
+    nav ul {
         position: fixed;
         width: 100%;
         height: 100vh;
@@ -150,26 +167,6 @@ nav ul li a {
         50% {
             transform: rotate(90deg);
         }
-    }
-}
-
-
-/* fade in animation for most of the body */
-
-section,
-p,
-div {
-    animation: fadeInAnimation ease 1s;
-    animation-iteration-count: 1;
-    animation-fill-mode: both;
-}
-
-@keyframes fadeInAnimation {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
     }
 }
 

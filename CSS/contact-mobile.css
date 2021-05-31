@@ -1,0 +1,62 @@
+@media (max-width:952px) {
+    .body-container {
+        font-size: 16px;
+        width: 100%;
+        /* float: none; */
+    }
+    #map {
+        width: 44%;
+        margin-top: 8vh;
+        height: 400px;
+    }
+}
+
+@media (max-width:836px) {
+    .page-header {
+        padding: 15px;
+        padding-bottom: 0;
+        font-size: 22px;
+        display: block;
+        text-align: center;
+    }
+    .location-about {
+        padding: 15px;
+        padding-bottom: 0;
+        font-size: 22px;
+        display: block;
+        text-align: center;
+    }
+    label.logo a {
+        float: none;
+        display: block;
+        /* margin-left: 20pt */
+    }
+    label.logo {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .body-container {
+        font-size: 16px;
+        padding: 20px;
+        padding-top: 0px;
+        width: 100%;
+    }
+    #map {
+        width: 75%;
+        margin-left: 13vw;
+        margin-top: 3vh;
+        height: 250px;
+    }
+    .form-container {
+        font-weight: normal;
+        position: initial;
+        width: 100%;
+        margin: 0;
+        padding: 15px 25px;
+    }
+    .contact-info ul,
+    .contact-info p,
+    .contact-info h3 {
+        text-align: center;
+    }
+}
