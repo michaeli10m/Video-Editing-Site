@@ -21,12 +21,15 @@ body {
 
 .contact-info ul li {
     display: inline-block;
-    padding: 5px;
-    margin: 8px;
+    margin-left: 2vw;
 }
 
 .contact-info ul li a {
     color: white;
+}
+
+.fa {
+    padding: 5px;
 }
 
 #map,
@@ -38,20 +41,20 @@ body {
 
 /* contact buttons */
 
-.fb {
-    background: #3b5998;
+.phone i {
+    background-color: #039122;
 }
 
-.mail {
-    background: #2b0c64;
+.fb i {
+    background-color: #3b5998;
 }
 
-.phone {
-    background: #0dad30;
+.mail i {
+    background-color: #3b108b;
 }
 
-.whatsApp {
-    background: #26c518;
+.whatsApp i {
+    background-color: #25d366;
 }
 
 
