@@ -6,8 +6,8 @@
     }
     #map {
         width: 44%;
-        margin-top: 8vh;
         height: 400px;
+        display: block;
     }
 }
 
@@ -27,12 +27,7 @@
         text-align: center;
     }
     h3.location-about {
-        font-size: 20px;
-    }
-    label.logo a {
-        float: none;
-        /* display: block; */
-        /* margin-left: 20pt */
+        font-size: 22px;
     }
     label.logo {
         margin-left: auto;
@@ -44,12 +39,6 @@
         padding-top: 0px;
         width: 100%;
     }
-    #map {
-        width: 75%;
-        margin-left: 13vw;
-        margin-top: 3vh;
-        height: 250px;
-    }
     .form-container {
         font-weight: normal;
         position: initial;
@@ -57,9 +46,19 @@
         margin: 0;
         padding: 15px 18px;
     }
-    .contact-info ul,
-    .contact-info p,
-    .contact-info h3 {
-        text-align: center;
+    #map {
+        width: 200px;
+        height: 200px;
+        position: relative;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .fb,
+    .mail,
+    .phone,
+    .whatsApp {
+        height: 20vw;
+        width: 20vw;
+        padding: 8px;
     }
 }

@@ -14,22 +14,21 @@ body {
 }
 
 .contact-info ul {
+    text-align: center;
     float: none;
     padding: 25px;
 }
 
 .contact-info ul li {
-    padding: 5px;
     display: inline-block;
     line-height: 20px;
     margin: 0;
+    color: white;
+    padding: 8px;
 }
 
-.contact-info ul,
-.contact-info p,
-.contact-info h3 {
-    list-style-type: disc;
-    text-align: right;
+.contact-info ul li a {
+    color: white;
 }
 
 .form-container {
@@ -40,20 +39,37 @@ body {
 }
 
 .contact-info {
-    height: 200px;
     width: 100%;
 }
 
-#map {
-    height: 300px;
-    padding: 20px;
-    margin: 3vh 5vw 3vh 52vw;
-}
+
+/* .map-sec {
+    margin: 0;
+} */
 
 #map,
 .form-container {
     width: 45%;
     position: absolute;
+}
+
+
+/* contact buttons */
+
+.fb {
+    background: #1832c5;
+}
+
+.mail {
+    background: #2b0c64;
+}
+
+.phone {
+    background: #e78a11;
+}
+
+.whatsApp {
+    background: #26c518;
 }
 
 
