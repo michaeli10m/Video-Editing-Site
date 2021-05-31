@@ -48,17 +48,17 @@
         <div class="form-container">
             <form action="../index.html">
 
-                <label for="fname">First Name</label>
-                <input type="text" id="fname" name="firstname" placeholder="">
+                <label for="fname">Your Name</label>
+                <input type="text" id="fname" name="name" placeholder="">
 
-                <label for="lname">Last Name</label>
-                <input type="text" id="lname" name="lastname" placeholder="">
+                <!-- <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder=""> -->
 
-                <label for="email">Your email:</label>
+                <label for="email">Email:</label>
                 <input type="email" id="email" name="email" placeholder="">
 
-                <label for="subject">Subject</label>
-                <textarea id="subject" name="subject" placeholder="Write something.." style="height:110px"></textarea>
+                <label for="subject">And your wish </label>
+                <textarea id="subject" name="subject" placeholder="your interest..." style="height:110px"></textarea>
 
                 <input type="submit" value="Submit">
             </form>
@@ -67,15 +67,14 @@
 
     <div class="contact-info">
         <h3 class="location-about">We are located in Jerusalem</h3>
-        <p class="location-about">Feel free to contact us at any time, we replay shortly and available accross all platforms </p>
+        <p class="location-about">Feel free to contact us at any time,<br> we replay shortly and available accross all platforms </p>
         <ul>
-            <li><a href="https://www.facebook.com/EpilogueStudioIsrael" target="_blank">FaceBook</a></li>
-            <li><a href="mailto: abc@example.com" target="_blank">E-mail</a></li>
-            <li><a href="tel:055-970-1584" target="_blank">call</a></li>
-            <li><a href="https://api.whatsapp.com/send?phone=972559701584" target="_blank">WhatsApp</a></li>
+            <li class="fb"><a href="https://www.facebook.com/EpilogueStudioIsrael" target="_blank">FaceBook</a></li>
+            <li class="mail"><a href="mailto: michaeli10m@gmail.com" target="_blank">E-mail</a></li>
+            <li class="phone"><a href="tel:055-970-1584" target="_blank">call</a></li>
+            <li class="whatsApp"><a href="https://api.whatsapp.com/send?phone=972559701584" target="_blank">WhatsApp</a></li>
         </ul>
     </div>
-
     <div class="map-container" id="map">
         <!-- <h3>We are located in Jerusalem</h3> -->
         <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDAxYIhxw3DB3FKsTrz0aEeZoivMLRScBQ&callback=initMap&libraries=&v=weekly" async></script>

@@ -15,6 +15,7 @@
     .page-header {
         padding: 15px;
         padding-bottom: 0;
+        margin-top: 5px;
         font-size: 22px;
         display: block;
         text-align: center;
@@ -22,13 +23,15 @@
     .location-about {
         padding: 15px;
         padding-bottom: 0;
-        font-size: 22px;
         display: block;
         text-align: center;
     }
+    h3.location-about {
+        font-size: 20px;
+    }
     label.logo a {
         float: none;
-        display: block;
+        /* display: block; */
         /* margin-left: 20pt */
     }
     label.logo {
@@ -52,7 +55,7 @@
         position: initial;
         width: 100%;
         margin: 0;
-        padding: 15px 25px;
+        padding: 15px 18px;
     }
     .contact-info ul,
     .contact-info p,
