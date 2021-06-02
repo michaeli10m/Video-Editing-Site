@@ -13,6 +13,12 @@ body {
     background: #f1f1f1;
 }
 
+.body-container {
+    display: inline-block;
+    width: 45%;
+    font-size: 1.3em;
+}
+
 .contact-info ul {
     text-align: center;
     float: none;
@@ -20,7 +26,6 @@ body {
 }
 
 .contact-info ul li {
-    /* display: none; */
     display: inline-block;
     margin: 3px;
 }
@@ -30,13 +35,13 @@ body {
 }
 
 .fa {
-    padding: 8px;
+    padding: 7px;
 }
 
-#map,
-.form-container {
+#map {
+    height: 300px;
     width: 45%;
-    position: absolute;
+    /* display: block; */
 }
 
 
@@ -72,7 +77,7 @@ input[type=text],
 input[type=email],
 textarea {
     width: 100%;
-    padding: 8px;
+    padding: 14px;
     border: 1px solid #ccc;
     border-radius: 4px;
     margin-top: 6px;

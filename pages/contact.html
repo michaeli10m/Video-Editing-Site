@@ -4,16 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
     <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale = 1.0, user-scalable = no">
-
     <link rel="stylesheet" href="../CSS/main.css">
     <link rel="stylesheet" href="../CSS/contact.css">
     <link rel="stylesheet" href="../CSS/contact-mobile.css">
     <script src="https://kit.fontawesome.com/e554aa2c27.js" crossorigin="anonymous"></script>
-    <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDAxYIhxw3DB3FKsTrz0aEeZoivMLRScBQ&callback=initMap">
-    </script>
+    <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDAxYIhxw3DB3FKsTrz0aEeZoivMLRScBQ&callback=initMap"></script>
     <script src="../JS/contact.js"></script>
+    <script src="../JS/main.js"></script>
     <title>Contact</title>
 </head>
 
@@ -23,13 +21,16 @@
 
 
     <nav class="nav-bar">
-        <input type="checkbox" id="check">
 
+        <input type="checkbox" id="check">
         <label for="check" class="checkbtn">
             <i class="fas fa-bars"></i>
         </label>
 
-        <label class="logo"><a href="../index.html">Web Studio</a></label>
+        <label class="logo"><a href="../index.html">Web Studio</a>
+            <p> <a href="../index.html"></a> Web Studio</p>
+        </label>
+
         <ul>
             <li><a href="../index.html">Home</a></li>
             <li><a href="info.html">Info</a></li>
@@ -43,7 +44,6 @@
     <h4 class="page-header">Contact Us</h4>
 
     <div class="body-container">
-
         <div class="form-container">
             <form action="../index.html">
 
@@ -64,24 +64,23 @@
         </div>
     </div>
 
-    <div class="contact-info">
-        <h3 class="location-about">We are located in Jerusalem</h3>
-        <p class="location-about">Feel free to contact us at any time,<br> we replay shortly and available accross all platforms </p>
-        <ul>
-            <li class="phone"><a href="tel:055-970-1584" target="_blank"><i class="fa fa-phone-square fa-2x" aria-hidden="true" ></i></a></li>
-            <li class="fb"><a href="https://www.facebook.com/EpilogueStudioIsrael" target="_blank"><i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i></a></li>
-            <li class="mail"><a href="mailto: michaeli10m@gmail.com" target="_blank"><i class="fa fa-envelope fa-2x" aria-hidden="true"></i></a></li>
-            <li class="whatsApp"><a href="https://api.whatsapp.com/send?phone=972559701584" target="_blank"><i class="fa fa-whatsapp fa-2x" aria-hidden="true"></i></a></li>
-        </ul>
-    </div>
 
     <section class="map-sec">
+        <div class="contact-info">
+            <h3 class="location-about">We are located in Jerusalem</h3>
+            <p class="location-about">Feel free to contact us at any time,<br> we replay shortly and available accross all platforms </p>
+            <ul>
+                <li class="phone"><a href="tel:055-970-1584" target="_blank"><i class="fa fa-phone-square fa-2x" aria-hidden="true" ></i></a></li>
+                <li class="fb"><a href="https://www.facebook.com/EpilogueStudioIsrael" target="_blank"><i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i></a></li>
+                <li class="mail"><a href="mailto: michaeli10m@gmail.com" target="_blank"><i class="fa fa-envelope fa-2x" aria-hidden="true"></i></a></li>
+                <li class="whatsApp"><a href="https://api.whatsapp.com/send?phone=972559701584" target="_blank"><i class="fa fa-whatsapp fa-2x" aria-hidden="true"></i></a></li>
+            </ul>
+        </div>
+
         <div class="map-container" id="map">
-            <!-- <h3>We are located in Jerusalem</h3> -->
             <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDAxYIhxw3DB3FKsTrz0aEeZoivMLRScBQ&callback=initMap&libraries=&v=weekly" async></script>
         </div>
     </section>
-    <!-- <section>Lower Section</section> -->
 
 
     <footer id="footer"> &#169; All rights reserved to "Epilogue-Studio"</footer>
