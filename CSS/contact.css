@@ -40,7 +40,7 @@ body {
 
 #map {
     height: 300px;
-    width: 45%;
+    width: 100%;
     /* display: block; */
 }
 
@@ -95,5 +95,5 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-    background-color: #45a049;
+    background-color: #0ecf88ec;
 }
